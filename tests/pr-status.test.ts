@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { createOsc8Link, formatPullRequestLink, parsePullRequest, statusKey } from "../src/pr-status";
+import { createOsc8Link, formatPullRequestLink, parsePullRequest, statusKey } from "../extensions/pr-status/core";
 
 describe("parsePullRequest", () => {
 	test("parses GitHub CLI PR JSON", () => {

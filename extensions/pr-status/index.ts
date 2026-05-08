@@ -1,5 +1,5 @@
 import type { ExtensionAPI, ExtensionContext } from "@mariozechner/pi-coding-agent";
-import { formatPullRequestLink, parsePullRequest, statusKey } from "../../src/pr-status";
+import { formatPullRequestLink, parsePullRequest, statusKey } from "./core";
 
 const refreshIntervalMs = 30_000;
 
