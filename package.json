@@ -1,0 +1,18 @@
+{
+	"name": "pi-pr-status",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"test": "bun test",
+		"typecheck": "tsc --noEmit"
+	},
+	"pi": {
+		"extensions": ["./extensions/pr-status/index.ts"]
+	},
+	"devDependencies": {
+		"@mariozechner/pi-coding-agent": "0.73.0",
+		"@types/bun": "1.3.13",
+		"typescript": "^5.9.3"
+	}
+}
